@@ -1,8 +1,8 @@
-// mixin makes data available to Meteor accessible by React
+// mixin allows React to access data that's available to Meteor
 // create error message for failed registration
 // handle form submissions with onSubmit()
 // create user object and params for storing data into DB
-// set up redirect to dashboard after a user is created
+// set up redirect to dashboard after a user is successfully created
 Signupform = React.createClass({
   mixins:[ReactMeteorData],
   getMeteorData(){

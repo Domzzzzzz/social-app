@@ -1,3 +1,5 @@
+// layout for the root page
+// renders: Featurelist, Header, Signupform components
 Homelayout = React.createClass({
   render(){
     return (

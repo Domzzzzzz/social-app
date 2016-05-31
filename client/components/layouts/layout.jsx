@@ -3,9 +3,9 @@ import React from 'react';
 Layout = React.createClass({
   render(){
     return (
-      <div class="wrapper">
-        <div class="box">
-          <div class="srow row-offcanvas row-offcanvas-left push-down-50">
+      <div className="wrapper">
+        <div className="box">
+          <div className="srow row-offcanvas row-offcanvas-left push-down-50">
             Navbar
             {this.props.sidebar}
             {this.props.content}

@@ -5,13 +5,13 @@ Homelayout = React.createClass({
     return (
       <div>
         Header
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
               Features
             </div>
-            <div class="col-sm-5 col-sm-offset-1">
-              Sign Up
+            <div className="col-md-5 col-md-offset-1">
+              <Signupform/> 
             </div>
           </div>
         </div>

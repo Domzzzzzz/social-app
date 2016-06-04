@@ -22,7 +22,7 @@ privateRoutes.route('/dashboard',{
   action:function(){
     mount(Layout,{
       sidebar:<Sidebar/>,
-    content:<Main/>
+      content:<Main/>
     })
   }
 });

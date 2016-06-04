@@ -1,3 +1,4 @@
+// main dashboard page where users will see posts & ads
 Main = React.createClass({
   render(){
     return(
@@ -7,9 +8,10 @@ Main = React.createClass({
             <div className="row">
               <div className="col-sm-9">
                 <Statusform/>
-                Posts
+                <Post/>
                 <button className="btn btn-md">More</button>
               </div>
+              <div className="col-sm-3">Ads</div>
             </div>
           </div>
         </div>

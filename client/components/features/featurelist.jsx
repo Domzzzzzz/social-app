@@ -1,7 +1,6 @@
 // contains a features array of json objects
 // array items will be displayed on home page
 // uses .map to loop through and display the feature array items
-
 Featurelist = React.createClass({
   features: [
     {icon:"fa fa-image fa-2x",bigtext:" See pics & updates",littletext:"your friends & family are posting."},

@@ -1,4 +1,4 @@
-// mixin allows React to access data that's available to Meteor
+// mixin allows React to access the data available to Meteor
 // create error message for failed registration
 // handle form submissions with onSubmit()
 // create user object and params for storing data into DB

@@ -22,6 +22,7 @@
 .navbar-static-top {
     background-color: #2b5386;
     color: #fff;
+    margin-bottom: 10px;
 }
 .sidebar-link {
     display: block;
@@ -48,6 +49,7 @@ hr { border-color: #dedede }
 .wrapper:after,
 .column:after { clear: both }
 .column {
+    margin-top: 25px;
     height: 100%;
     overflow: auto;
     *zoom: 1;
@@ -95,7 +97,7 @@ hr { border-color: #dedede }
     background-color: #e9eaed;
     padding-left: 0;
     padding-right: 0;
-    margin-top: -45px;
+    margin-top: -40px;
 }
 #main .img-circle {
     margin-top: 18px;

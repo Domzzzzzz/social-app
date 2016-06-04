@@ -21,8 +21,8 @@ privateRoutes.route('/dashboard',{
   name: 'Dashboard',
   action:function(){
     mount(Layout,{
-      sidebar: <div>Sidebar</div>,
-      content: <div>Content</div>
+      sidebar:<Sidebar/>,
+    content:<Main/>
     })
   }
 });

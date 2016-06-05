@@ -28,3 +28,5 @@ fortawesome:fontawesome
 momentjs:moment
 react-meteor-data
 kadira:react-layout
+cfs:standard-packages
+cfs:filesystem

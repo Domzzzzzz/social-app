@@ -1,4 +1,4 @@
-// collection for Images - accessed by both server & client
+// collection of Images - accessed by both server & client
 // stores array holds the files uploaded & defines path to store them in
 Images = new FS.Collection('images',{
   stores: [new FS.Store.FileSystem('images',{path:'~/uploads'})]

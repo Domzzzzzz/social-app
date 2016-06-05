@@ -6,7 +6,7 @@
 // submitForm - function to include file upload and msg in posts - called onSubmit
 // var message - references the text area & grabs msg user types for their post
 // Meteor.call - calls Posts.insert function which is defined server-side
-// Posts.insert - checks if img & msg exists then inserts into post, otherwise displays error
+// Posts.insert - checks if img & msg exists then inserts into db, otherwise displays error
 Statusform = React.createClass({
   getInitialState(){
     return{

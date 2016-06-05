@@ -13,7 +13,7 @@ Signupform = React.createClass({
   getInitialState(){
     return {
       message:'',
-      messageClass:''
+      messageClass:'hidden'
     }
   },
   displayError(message){
